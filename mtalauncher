@@ -1,1 +1,28 @@
+Forum 1 Kısmı
 
+private void timer1_Tick(object sender, EventArgs e)
+        {
+            panel2.Width += 2;
+            if (panel2.Width >= 600) //panel2'nin hızını ayarlar.
+            {
+                timer1.Stop(); //timer 1 durur.
+                Form2 form2 = new Form2(); //forum2 ye at verir.
+                form2.Show(); // forum 1 den forum 2 ye geçer.
+                Hide(); //forum 1 kapatır.
+            }
+        }
+        Forum 2 ;
+         private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("sunucu ismi"); //MTA yı çalıştırı
+            // eğer Instagram hesabını açmak istiyorsanız System.Diagnostics.Process.Start("Instagram hesabı");
+        }
+        Lazım Olanlar ;
+        panal1
+        panel2
+        button1
+        picturebox
+        GTA SAN'ı indirmeniz şartır aynı zamanda MTA'yı
+        
+        //MTA'YI İNDİRMEK İÇİN  https://multitheftauto.com/
+        // GTA SAN https://enderoguz.blogspot.com/2016/07/gta-san-andreas-ender-city-v3-turkiye.html
